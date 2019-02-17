@@ -1,0 +1,582 @@
+<!--html的基本结构-->
+<!DOCTYPE html> <!--声明网页采用html5文档规范-->
+<html>
+	<!--浏览器识别html文档的标志-->
+	<head>
+		<!--头部，定义文档的属性信息，如标题-->
+		<meta charset="UTF-8"/>
+		<!--告诉浏览器编码格式-->
+		<title>www.dyzncs.com</title>
+		<style type="text/css">
+			.style1 {
+				background-color: gold;
+				color: red;
+			}
+			.style1:hover {
+				transform: scale(2.0,2.0);
+			}
+
+			.style2 {
+				background-color: red;
+				color: gold;
+			}
+			.style2:hover {
+				transform: scale(2.0,2.0);
+			}
+			.style3 {
+				background-color: blue;
+				color: solid;
+			}
+			.style3:hover {
+				transform: scale(2.0,2.0);
+			}
+			.style4 {
+				background-color: solid;
+				color: blue;
+			}
+			.style4:hover {
+				transform: scale(2.0,2.0);
+			}
+			.style5 {
+				background-color: green;
+				color: #3e3e3e;
+			}
+			.style5:hover {
+				transform: scale(2.0,2.0);
+			}
+		</style>
+
+	</head>
+	<body>
+
+		<script>
+			alert("这里是多元智能测试中心");
+			var q1 = prompt("以下是多元智能测试的简介，想听就输入0，不想听就输入1");
+			if (q1 == "0") {
+				alert("多元智能发展测评系统－－MIDAS（Multiple Intelligences Developmental Assessment Scales）是由著名发展心理学家布莱顿·希勒(Branton Shearer)博士于1987年开发，作为评估人的智力表现，职业发展等的一种手段。是自我评估，引导人们更深入地了解他们的学习和生活。MIDAS为个人获取自己的多元智能情况提供了一个有效的工具，为学生提供了一种测量智力习性的可能，MIDAS测试报告仔细地描述了一个人的技能、能力和智力潜能。");
+				alert("一、语言智能（Linguistic Intelligence） 活动表现：口语、阅读、写作、讲故事、诗歌 学习技巧：写故事、作笔记、解释与教别人、制订提纲、列清单、用缩写 兴趣爱好：文字游戏、诗歌、讲故事、歌词、朗读");
+				alert("二、逻辑-数学智能（Logical-Mathematical Intelligence） 活动表现：计算、调查、解决问题、战略、逻辑 学习技巧：提问、分类、解释、分析、比较 兴趣爱好：国际象棋、猜谜、拼图、电脑 对应专业：计算机、经济学、工程学、会计、医学、化学、物理学、统计学");
+				alert("三、空间智能（Spatial Intelligence）活动表现：地图阅读、艺术设计、工艺、机械学习技巧：观察、思维导图、视图、彩色笔记、卡通绘画兴趣爱好：涂鸦、摄影、造型、设计对应专业：视觉设计、服装设计、建筑、工程、航空、地理、摄影、广告、平面设计");
+				alert("四、身体动觉智能（Bodily-Kinesthetic Intelligence） 活动表现：体育、舞蹈、手工艺、魔术、哑剧模仿 学习技巧：手势、表演、戏剧、做模型 兴趣爱好：摔跤、打球、魔术、舞蹈 对应专业：戏剧、舞蹈、健身、健身教育");
+				alert("五、音乐智能（Musical Intelligence） 活动表现：唱歌、演奏乐器 学习技巧：音律、节奏、歌唱、带兴趣唱歌、在音乐环境中学习 兴趣爱好：哼、唱歌、打鼓、韵律、吹口哨 对应专业：乐队、声乐、作曲、合唱、乐团、指挥");
+				alert("六、人际智能（Interpersonal Intelligence） 活动表现：同情、领导、管理人际关系 学习技巧：小组学习、教学、角色扮演、讨论、学习倾听 兴趣爱好：团队游戏、体育、聊天、帮助、志愿工作 对应专业：市场推广、公共关系、服务、销售、教育、商业管理、护理学、人力资源管理")
+				alert("七、自我认知智能（Intrapersonal Intelligence） 活动表现：个人了解、观点、判断、自主、目标 学习技巧：问自己为什么、对自己很重要、我现在知道什么 兴趣爱好：思考、调查、规划人生目标、写日记 对应专业：创意写作、哲学、心理学")
+				alert("八、自然认知智能（NaturalistIntelligence） 活动表现：了解动物、从事与植物相关的活动、科学知识使用 学习技巧：使用感观、观察和隐喻、建立活体模型 兴趣爱好：训练宠物、养鱼、户外活动、栽花种树 对应专业：生物学、生态学、园艺学、动物学、地质、海洋、农业、烹饪");
+				alert("简介以完毕，接下来开始正式测试，4=同意，3=颇为同意，2=少许同意，1=不同意");
+				alert("这里是第一项语言智能");
+				var q2 = prompt("l1我喜欢看书");
+				var q3 = prompt("l2我很容易明白别人的指示，和言外之意");
+				var q4 = prompt("l3我从收音机或录像带里可以比从电视电影中明白更多");
+				var q5 = prompt("l4我喜欢文字游戏如填字游戏，猜谜语，快速拼字等");
+				var q6 = prompt("l5我喜欢用绕口令娱乐自己和他人");
+				var q7 = prompt("l6我在学校学习语文历史比数学科学简单");
+				var q8 = prompt("l7我在说话时经常用听来的话");
+				var q9 = prompt("l8我在与人交流时会用心倾听，善用言语");
+				var q10 = prompt("l9我善记人名，地名，和日常的小事物");
+				var q11 = prompt("l10我能看图讲故事");
+				var q12 = prompt("l11我会朗读课文和听讲故事");
+				var q13 = prompt("l12我会用话来表达情绪，想法和需求");
+				var q14 = prompt("l13我能运用学过的字，句子写作");
+				var q15 = prompt("l14我喜欢参与讨论，辩论等运用文字类的活动");
+				var q16 = prompt("l15我善于编故事，编笑话或令人难以置信的故事");
+				var zx = Number(q2) + Number(q3) + Number(q4) + Number(q5) + Number(q6) + Number(q7) + Number(q8) + Number(q9) + Number(q10) + Number(q11) + Number(q12) + Number(q13) + Number(q14) + Number(q15) + Number(q16)
+
+				document.write("你语言智能的得分是：" + zx + "<br/>" + "评价为：" + " ");
+				if ((zx >= 50) && (zx <= 60)) {
+					document.write("非常优越" + "<br/>");
+				} else if ((zx >= 40) && (zx <= 50)) {
+					document.write("比较优秀" + "<br/>");
+				} else if ((zx >= 30) && (zx <= 30)) {
+					document.write("表现一般" + "<br/>");
+				} else if ((zx >= 20) && (zx <= 40)) {
+					document.write("非常一般" + "<br/>");
+				} else {
+					document.write("特别不好" + "<br/>");
+				}
+
+				alert("这里是第二项身体动觉智能");
+				var w1 = prompt("lm1  在听故事的时候我总能精准的猜中结局");
+				var w2 = prompt("lm2  我对科学的发展有很大的兴趣");
+				var w3 = prompt("lm3  我比较容易相信经过科学验证的事物");
+				var w4 = prompt("lm4  我喜欢把事物分类，分配，分等");
+				var w5 = prompt("lm5  我喜欢找事情的规律，形式，及逻辑顺序");
+				var w6 = prompt("lm6  我喜欢棋类或其他运用数学策略的游戏");
+				var w7 = prompt("lm7  我喜欢提出假设性问题或思路，进行试验");
+				var w8 = prompt("lm8  我相信事物都有合理的解释");
+				var w9 = prompt("lm9  我可以快速心算");
+				var w10 = prompt("lm10 我喜欢利用计算机，电脑解题");
+				var w11 = prompt("lm11 我喜欢侦探推理，数学家，科学家的故事");
+				var w12 = prompt("lm12 我喜欢数学课，参与数学与科学活动");
+				var w13 = prompt("lm13  我喜欢提问，研究事情发生的原因");
+				var w14 = prompt("lm14  我喜欢有计划的做事");
+				var w15 = prompt("lm15  我喜欢将事情用统计表列出");
+				var zxc = Number(w1) + Number(w2) + Number(w3) + Number(w4) + Number(w5) + Number(w6) + Number(w7) + Number(w8) + Number(w9) + Number(w10) + Number(w11) + Number(w12) + Number(w13) + Number(w14) + Number(w15);
+
+				document.write("你逻辑数学智能的得分是：" + zxc + "<br/>" + "评价为：" + " ");
+				if ((zxc >= 50) && (zxc <= 60)) {
+					document.write("非常优越" + "<br/>");
+				} else if ((zxc >= 40) && (zxc <= 50)) {
+					document.write("比较优秀" + "<br/>");
+				} else if ((zxc >= 30) && (zxc <= 30)) {
+					document.write("表现一般" + "<br/>");
+				} else if ((zxc >= 20) && (zxc <= 40)) {
+					document.write("非常一般" + "<br/>");
+				} else {
+					document.write("特别不好" + "<br/>");
+				}
+
+				alert("这里是第三项空间智能");
+				var e1 = prompt("s1  对我来说阅读地图，图标比文字容易");
+				var e2 = prompt("s2  我画图画的很好");
+				var e3 = prompt("s3  我喜欢有趣的立体模型");
+				var e4 = prompt("s4  我阅读时能从更多图画而不是文字中获取信息");
+				var e5 = prompt("s5  我一般能从陌生的地方找到路");
+				var e6 = prompt("s6  我喜欢随手图画");
+				var e7 = prompt("s7  我喜欢玩拼图，走迷宫等想象游戏");
+				var e8 = prompt("s8  我喜欢阅读地图，设计图及含图像作品");
+				var e9 = prompt("s9  我喜欢想象，容易想入非非");
+				var e10 = prompt("s10 我对颜色很敏感");
+				var e11 = prompt("s11 我能轻松的想象一个事物的景象");
+				var e12 = prompt("s12 我喜欢看电视和其他艺术类表演");
+				var e13 = prompt("s13 我喜欢手工，劳作，视觉艺术课");
+				var e14 = prompt("s14 我会选择材料根据自己的意念进行创作");
+				var e15 = prompt("s15 我喜欢用比喻来解说事情");
+				var zxcv = Number(e1) + Number(e2) + Number(e3) + Number(e4) + Number(e5) + Number(e6) + Number(e7) + Number(e8) + Number(e9) + Number(e10) + Number(e11) + Number(e12) + Number(e13) + Number(e14) + Number(e15);
+
+				document.write("你空间智能的得分是：" + zxcv + "<br/>" + "评价为：" + " ");
+				if ((zxcv >= 50) && (zxcv <= 60)) {
+					document.write("非常优越" + "<br/>");
+				} else if ((zxcv >= 40) && (zxcv <= 50)) {
+					document.write("比较优秀" + "<br/>");
+				} else if ((zxcv >= 30) && (zxcv <= 30)) {
+					document.write("表现一般" + "<br/>");
+				} else if ((zxcv >= 20) && (zxcv <= 40)) {
+					document.write("非常一般" + "<br/>");
+				} else {
+					document.write("特别不好" + "<br/>");
+				}
+
+				alert("这里是第四项身体动觉智能");
+				var r1 = prompt("bk1  在玩身体动作或听歌曲名称时我总爱用身体表现出来 ");
+				var r2 = prompt("bk2  我与人谈话时，我喜欢用身体语言");
+				var r3 = prompt("bk3  在听音乐时我会随着音乐摇摆");
+				var r4 = prompt("bk4  我会亲自练习一项新的技能而不是只是看说明或有描述的录像带");
+				var r5 = prompt("bk5  我擅长一种或多种体育活动");
+				var r6 = prompt("bk6  我喜欢模仿他人动作，言谈举止");
+				var r7 = prompt("bk7  我喜欢摔跤，拍打朋友，跑进教室，翻越椅子等动作");
+				var r8 = prompt("bk8  我喜爱体育活动和身体动作游戏");
+				var r9 = prompt("bk9  我喜欢通过身体动作进行学习");
+				var r10 = prompt("bk10 我喜欢用手完成细致的手工艺做品");
+				var r11 = prompt("bk11 我喜欢拆解和组装物件");
+				var r12 = prompt("bk12 我喜欢身体刺激游戏或惊险的娱乐活动");
+				var r13 = prompt("bk13 我善于协调身体各个部位");
+				var r14 = prompt("bk14 我较难长时间坐着不动");
+				var r15 = prompt("bk15 我记得最清楚的事物是做过的，而不是说过看过的");
+				var zxcvb = Number(r1) + Number(r2) + Number(r3) + Number(r4) + Number(r5) + Number(r6) + Number(r7) + Number(r8) + Number(r9) + Number(r10) + Number(r11) + Number(r12) + Number(r13) + Number(r14) + Number(r15);
+
+				document.write("你身体动觉智能的得分是：" + zxcvb + "<br/>" + "评价为：" + " ");
+				if ((zxcvb >= 50) && (zxcvb <= 60)) {
+					document.write("非常优越" + "<br/>");
+				} else if ((zxcvb >= 40) && (zxcvb <= 50)) {
+					document.write("比较优秀" + "<br/>");
+				} else if ((zxcvb >= 30) && (zxcvb <= 30)) {
+					document.write("表现一般" + "<br/>");
+				} else if ((zxcvb >= 20) && (zxcvb <= 40)) {
+					document.write("非常一般" + "<br/>");
+				} else {
+					document.write("特别不好" + "<br/>");
+				}
+
+				alert("这里是第五项音乐智能");
+				var t1 = prompt("m1  我会演奏一种或多种乐器 ");
+				var t2 = prompt("m2  我喜欢随意哼唱，不自觉的用手拍打节拍");
+				var t3 = prompt("m3  我喜欢吹口哨，唱歌，唱游活动");
+				var t4 = prompt("m4  我喜欢听音乐");
+				var t5 = prompt("m5  我有好听的歌喉");
+				var t6 = prompt("m6  我讲话的时候很有节奏感");
+				var t7 = prompt("m7  我能辨别音乐走调");
+				var t8 = prompt("m8  我能随音乐节奏，用动作来表达");
+				var t9 = prompt("m9  我我参加乐队、合唱队");
+				var t10 = prompt("m10 我在有时走路时，脑海里会出现某个电视节目的音乐或其他音乐旋律");
+				var t11 = prompt("m11 我知道许多歌曲和乐曲的旋律");
+				var t12 = prompt("m12 有音乐伴奏做事，我会做的更快，更专注");
+				var t13 = prompt("m13 如果把一首歌曲听1-2变，我就能把它精准地唱出来");
+				var t14 = prompt("m14 我或自己作词，谱曲以抒发情感");
+				var t15 = prompt("m15 我会请听歌曲的内涵，领首歌曲的意境");
+				var zxcvbn = Number(t1) + Number(t2) + Number(t3) + Number(t4) + Number(t5) + Number(t6) + Number(t7) + Number(t8) + Number(t9) + Number(t10) + Number(t11) + Number(t12) + Number(t13) + Number(t14) + Number(t15);
+
+				document.write("你身体动觉智能的得分是：" + zxcvb + "<br/>" + "评价为：" + " ");
+				if ((zxcvbn >= 50) && (zxcvbn <= 60)) {
+					document.write("非常优越" + "<br/>");
+				} else if ((zxcvbn >= 40) && (zxcvbn <= 50)) {
+					document.write("比较优秀" + "<br/>");
+				} else if ((zxcvbn >= 30) && (zxcvbn <= 30)) {
+					document.write("表现一般" + "<br/>");
+				} else if ((zxcvbn >= 20) && (zxcvbn <= 40)) {
+					document.write("非常一般" + "<br/>");
+				} else {
+					document.write("特别不好" + "<br/>");
+				}
+
+				alert("这里是第六项人际关系智能");
+				var y1 = prompt("i1 我经常参加团体活动");
+				var y2 = prompt("i2 当有问题时，我愿意找别人帮助");
+				var y3 = prompt("i3我是同学合作的对象");
+				var y4 = prompt("i4 我喜欢教一个人，或一群人做一件事");
+				var y5 = prompt("i5 我喜欢关心、体贴和照顾别人");
+				var y6 = prompt("i6 我在人群中感到舒服，而不愿个人独处");
+				var y7 = prompt("i7 我乐意接纳别人的意见");
+				var y8 = prompt("i8 我会请听别人说话，懂的互动，沟通良好");
+				var y9 = prompt("i9 为乐意与人分工合作，喜爱角色扮演和集体游戏");
+				var y10 = prompt("i10 我能协调沟通化解同学的争议");
+				var y11 = prompt("i11 我喜欢与他人交往，有很多朋友，在社交中能显现领导才能");
+				var y12 = prompt("i12 我有团队精神，既尽职又努力奉献");
+				var y13 = prompt("i13 我容易结交新朋友");
+				var y14 = prompt("i14 我是消息灵通人士");
+				var y15 = prompt("i15 我了解别人喜怒，会由别人的脸色及当时的情形，这到别人心情，并正确、迅速的应对");
+				var zxcvbnm = Number(y1) + Number(y2) + Number(y3) + Number(y4) + Number(y5) + Number(y6) + Number(y7) + Number(y8) + Number(y9) + Number(y10) + Number(y11) + Number(y12) + Number(y13) + Number(y14) + Number(y15);
+
+				document.write("你身体动觉智能的得分是：" + zxcvbm + "<br/>" + "评价为：" + " ");
+				if ((zxcvbnm >= 50) && (zxcvbnm <= 60)) {
+					document.write("非常优越" + "<br/>");
+				} else if ((zxcvbnm >= 40) && (zxcvbnm <= 50)) {
+					document.write("比较优秀" + "<br/>");
+				} else if ((zxcvbnm >= 30) && (zxcvbnm <= 30)) {
+					document.write("表现一般" + "<br/>");
+				} else if ((zxcvbnm >= 20) && (zxcvbnm <= 40)) {
+					document.write("非常一般" + "<br/>");
+				} else {
+					document.write("特别不好" + "<br/>");
+				}
+
+				alert("这里是第七项内省智能");
+				var u1 = prompt("j1  我能恰当的表现自己的想法");
+				var u2 = prompt("i2 当有问题时，我愿意找别人帮助");
+				var u3 = prompt("j3  我诚实，坦白，勤于反省，敢于认错");
+				var u4 = prompt("j4  我是活泼开朗的");
+				var u5 = prompt("j5  我明事理，拥有自尊，懂得自律");
+				var u6 = prompt("j6  我能集中注意力，按时完成工作");
+				var u7 = prompt("j7  我喜欢独自工作，游戏和学习");
+				var u8 = prompt("j8  我善于计划和分配工作和学习");
+				var u9 = prompt("j9  我能控制住自己的情绪，不随便发脾气");
+				var u10 = prompt("j10 我能够面对挫折");
+				var u11 = prompt("j11 我经常思考自己的重要人生目标");
+				var u12 = prompt("j12 我会检讨自己做是成功或失败的经验，使下次做事更为顺利");
+				var u13 = prompt("j13 我认为自己意志坚强或性格独立");
+				var u14 = prompt("j14 我喜欢记录个人生活事件");
+				var u15 = prompt("j15我有自知之明及据此做出适当行为的能力");
+				var zxcvbnma = Number(u1) + Number(u2) + Number(u3) + Number(u4) + Number(u5) + Number(u6) + Number(u7) + Number(u8) + Number(u9) + Number(u10) + Number(u11) + Number(u12) + Number(u13) + Number(u14) + Number(u15);
+
+				document.write("你身体动觉智能的得分是：" + zxcvbnma + "<br/>" + "评价为：" + " ");
+				if ((zxcvbnma >= 50) && (zxcvbnma <= 60)) {
+					document.write("非常优越" + "<br/>");
+				} else if ((zxcvbnma >= 40) && (zxcvbnma <= 50)) {
+					document.write("比较优秀" + "<br/>");
+				} else if ((zxcvbnma >= 30) && (zxcvbnma <= 30)) {
+					document.write("表现一般" + "<br/>");
+				} else if ((zxcvbnma >= 20) && (zxcvbnma <= 40)) {
+					document.write("非常一般" + "<br/>");
+				} else {
+					document.write("特别不好" + "<br/>");
+				}
+
+				alert("这里是第八项自然观察者智能");
+				var i1 = prompt("n1  我对植物，动物，自然生态有好奇心，保护意识，和关怀之情");
+				var i2 = prompt("n2  我对自然界的事物有敏锐的感觉");
+				var i3 = prompt("n3  我很快生物和自然景物的名称，特征和与其有关的资料");
+				var i4 = prompt("n4  我会留意自然环境和周围环境的变化，特别是突变何不寻常的现象");
+				var i5 = prompt("n5  我喜欢收集标本，饲养动物，种植花草树木，参加园艺或野外活动");
+				var i6 = prompt("n6  我喜欢阅览以自然景观活动植物为主题的节目，图书和展示");
+				var i7 = prompt("n7  我喜欢用仪器来探究大自然");
+				var i8 = prompt("n8  我能有系统的记录所收藏的标本和将新发现分门别类");
+				var i9 = prompt("n9  我善待自然世界，乐于分享自己探索自然万物的经历");
+				var i10 = prompt("n10 我喜欢看云，并能看出不同的形状，高度，明暗度等");
+				var i11 = prompt("n11 我喜欢到公园，植物园，水族馆进行参观考察");
+				var i12 = prompt("n12 我对自然景物有很大兴趣");
+				var i13 = prompt("n13 我会蹲在地上看蚂蚁走路，一看就花上半个小时，目的是观察蚂蚁的生活动态而不是踩死它");
+				var i14 = prompt("n14 春天来临时我是朋友中第一个注意到花苞或嫩芽的人");
+				var i15 = prompt("n15在往返学校的路途上，我喜欢观察周围的景物，并且注意其不同的变化");
+				var zxcvbnmas = Number(i1) + Number(i2) + Number(i3) + Number(i4) + Number(i5) + Number(i6) + Number(i7) + Number(i8) + Number(i9) + Number(i10) + Number(i11) + Number(i12) + Number(i13) + Number(i14) + Number(i15);
+
+				document.write("你身体动觉智能的得分是：" + zxcvbnmas + "<br/>" + "评价为：" + " ");
+				if ((zxcvbnmas >= 50) && (zxcvbnmas <= 60)) {
+					document.write("非常优越" + "<br/>");
+				} else if ((zxcvbnmas >= 40) && (zxcvbnmas <= 50)) {
+					document.write("比较优秀" + "<br/>");
+				} else if ((zxcvbnmas >= 30) && (zxcvbnmas <= 30)) {
+					document.write("表现一般" + "<br/>");
+				} else if ((zxcvbnmas >= 20) && (zxcvbnmas <= 40)) {
+					document.write("非常一般" + "<br/>");
+				} else {
+					document.write("特别不好" + "<br/>");
+				}
+
+			} else if (q1 == "1") {
+				alert("接下来开始正式测试，4=同意，3=颇为同意，2=少许同意，1=不同意");
+
+				alert("这里是第一项语言智能");
+				var q2 = prompt("l1我喜欢看书");
+				var q3 = prompt("l2我很容易明白别人的指示，和言外之意");
+				var q4 = prompt("l3我从收音机或录像带里可以比从电视电影中明白更多");
+				var q5 = prompt("l4我喜欢文字游戏如填字游戏，猜谜语，快速拼字等");
+				var q6 = prompt("l5我喜欢用绕口令娱乐自己和他人");
+				var q7 = prompt("l6我在学校学习语文历史比数学科学简单");
+				var q8 = prompt("l7我在说话时经常用听来的话");
+				var q9 = prompt("l8我在与人交流时会用心倾听，善用言语");
+				var q10 = prompt("l9我善记人名，地名，和日常的小事物");
+				var q11 = prompt("l10我能看图讲故事");
+				var q12 = prompt("l11我会朗读课文和听讲故事");
+				var q13 = prompt("l12我会用话来表达情绪，想法和需求");
+				var q14 = prompt("l13我能运用学过的字，句子写作");
+				var q15 = prompt("l14我喜欢参与讨论，辩论等运用文字类的活动");
+				var q16 = prompt("l15我善于编故事，编笑话或令人难以置信的故事");
+				var zx = Number(q2) + Number(q3) + Number(q4) + Number(q5) + Number(q6) + Number(q7) + Number(q8) + Number(q9) + Number(q10) + Number(q11) + Number(q12) + Number(q13) + Number(q14) + Number(q15) + Number(q16)
+
+				document.write("你语言智能的得分是：" + zx + "<br/>" + "评价为：" + " ");
+				if ((zx >= 50) && (zx <= 60)) {
+					document.write("非常优越" + "<br/>");
+				} else if ((zx >= 40) && (zx <= 50)) {
+					document.write("比较优秀" + "<br/>");
+				} else if ((zx >= 30) && (zx <= 30)) {
+					document.write("表现一般" + "<br/>");
+				} else if ((zx >= 20) && (zx <= 40)) {
+					document.write("非常一般" + "<br/>");
+				} else {
+					document.write("特别不好" + "<br/>");
+				}
+
+				alert("这里是第二项身体动觉智能");
+				var w1 = prompt("lm1  在听故事的时候我总能精准的猜中结局");
+				var w2 = prompt("lm2  我对科学的发展有很大的兴趣");
+				var w3 = prompt("lm3  我比较容易相信经过科学验证的事物");
+				var w4 = prompt("lm4  我喜欢把事物分类，分配，分等");
+				var w5 = prompt("lm5  我喜欢找事情的规律，形式，及逻辑顺序");
+				var w6 = prompt("lm6  我喜欢棋类或其他运用数学策略的游戏");
+				var w7 = prompt("lm7  我喜欢提出假设性问题或思路，进行试验");
+				var w8 = prompt("lm8  我相信事物都有合理的解释");
+				var w9 = prompt("lm9  我可以快速心算");
+				var w10 = prompt("lm10 我喜欢利用计算机，电脑解题");
+				var w11 = prompt("lm11 我喜欢侦探推理，数学家，科学家的故事");
+				var w12 = prompt("lm12 我喜欢数学课，参与数学与科学活动");
+				var w13 = prompt("lm13  我喜欢提问，研究事情发生的原因");
+				var w14 = prompt("lm14  我喜欢有计划的做事");
+				var w15 = prompt("lm15  我喜欢将事情用统计表列出");
+				var zxc = Number(w1) + Number(w2) + Number(w3) + Number(w4) + Number(w5) + Number(w6) + Number(w7) + Number(w8) + Number(w9) + Number(w10) + Number(w11) + Number(w12) + Number(w13) + Number(w14) + Number(w15);
+
+				document.write("你逻辑数学智能的得分是：" + zxc + "<br/>" + "评价为：" + " ");
+				if ((zxc >= 50) && (zxc <= 60)) {
+					document.write("非常优越" + "<br/>");
+				} else if ((zxc >= 40) && (zxc <= 50)) {
+					document.write("比较优秀" + "<br/>");
+				} else if ((zxc >= 30) && (zxc <= 30)) {
+					document.write("表现一般" + "<br/>");
+				} else if ((zxc >= 20) && (zxc <= 40)) {
+					document.write("非常一般" + "<br/>");
+				} else {
+					document.write("特别不好" + "<br/>");
+				}
+
+				alert("这里是第三项空间智能");
+				var e1 = prompt("s1  对我来说阅读地图，图标比文字容易");
+				var e2 = prompt("s2  我画图画的很好");
+				var e3 = prompt("s3  我喜欢有趣的立体模型");
+				var e4 = prompt("s4  我阅读时能从更多图画而不是文字中获取信息");
+				var e5 = prompt("s5  我一般能从陌生的地方找到路");
+				var e6 = prompt("s6  我喜欢随手图画");
+				var e7 = prompt("s7  我喜欢玩拼图，走迷宫等想象游戏");
+				var e8 = prompt("s8  我喜欢阅读地图，设计图及含图像作品");
+				var e9 = prompt("s9  我喜欢想象，容易想入非非");
+				var e10 = prompt("s10 我对颜色很敏感");
+				var e11 = prompt("s11 我能轻松的想象一个事物的景象");
+				var e12 = prompt("s12 我喜欢看电视和其他艺术类表演");
+				var e13 = prompt("s13 我喜欢手工，劳作，视觉艺术课");
+				var e14 = prompt("s14 我会选择材料根据自己的意念进行创作");
+				var e15 = prompt("s15 我喜欢用比喻来解说事情");
+				var zxcv = Number(e1) + Number(e2) + Number(e3) + Number(e4) + Number(e5) + Number(e6) + Number(e7) + Number(e8) + Number(e9) + Number(e10) + Number(e11) + Number(e12) + Number(e13) + Number(e14) + Number(e15);
+
+				document.write("你空间智能的得分是：" + zxcv + "<br/>" + "评价为：" + " ");
+				if ((zxcv >= 50) && (zxcv <= 60)) {
+					document.write("非常优越" + "<br/>");
+				} else if ((zxcv >= 40) && (zxcv <= 50)) {
+					document.write("比较优秀" + "<br/>");
+				} else if ((zxcv >= 30) && (zxcv <= 30)) {
+					document.write("表现一般" + "<br/>");
+				} else if ((zxcv >= 20) && (zxcv <= 40)) {
+					document.write("非常一般" + "<br/>");
+				} else {
+					document.write("特别不好" + "<br/>");
+				}
+
+				alert("这里是第四项身体动觉智能");
+				var r1 = prompt("bk1  在玩身体动作或听歌曲名称时我总爱用身体表现出来 ");
+				var r2 = prompt("bk2  我与人谈话时，我喜欢用身体语言");
+				var r3 = prompt("bk3  在听音乐时我会随着音乐摇摆");
+				var r4 = prompt("bk4  我会亲自练习一项新的技能而不是只是看说明或有描述的录像带");
+				var r5 = prompt("bk5  我擅长一种或多种体育活动");
+				var r6 = prompt("bk6  我喜欢模仿他人动作，言谈举止");
+				var r7 = prompt("bk7  我喜欢摔跤，拍打朋友，跑进教室，翻越椅子等动作");
+				var r8 = prompt("bk8  我喜爱体育活动和身体动作游戏");
+				var r9 = prompt("bk9  我喜欢通过身体动作进行学习");
+				var r10 = prompt("bk10 我喜欢用手完成细致的手工艺做品");
+				var r11 = prompt("bk11 我喜欢拆解和组装物件");
+				var r12 = prompt("bk12 我喜欢身体刺激游戏或惊险的娱乐活动");
+				var r13 = prompt("bk13 我善于协调身体各个部位");
+				var r14 = prompt("bk14 我较难长时间坐着不动");
+				var r15 = prompt("bk15 我记得最清楚的事物是做过的，而不是说过看过的");
+				var zxcvb = Number(r1) + Number(r2) + Number(r3) + Number(r4) + Number(r5) + Number(r6) + Number(r7) + Number(r8) + Number(r9) + Number(r10) + Number(r11) + Number(r12) + Number(r13) + Number(r14) + Number(r15);
+
+				document.write("你身体动觉智能的得分是：" + zxcvb + "<br/>" + "评价为：" + " ");
+				if ((zxcvb >= 50) && (zxcvb <= 60)) {
+					document.write("非常优越" + "<br/>");
+				} else if ((zxcvb >= 40) && (zxcvb <= 50)) {
+					document.write("比较优秀" + "<br/>");
+				} else if ((zxcvb >= 30) && (zxcvb <= 30)) {
+					document.write("表现一般" + "<br/>");
+				} else if ((zxcvb >= 20) && (zxcvb <= 40)) {
+					document.write("非常一般" + "<br/>");
+				} else {
+					document.write("特别不好" + "<br/>");
+				}
+
+				alert("这里是第五项音乐智能");
+				var t1 = prompt("m1  我会演奏一种或多种乐器 ");
+				var t2 = prompt("m2  我喜欢随意哼唱，不自觉的用手拍打节拍");
+				var t3 = prompt("m3  我喜欢吹口哨，唱歌，唱游活动");
+				var t4 = prompt("m4  我喜欢听音乐");
+				var t5 = prompt("m5  我有好听的歌喉");
+				var t6 = prompt("m6  我讲话的时候很有节奏感");
+				var t7 = prompt("m7  我能辨别音乐走调");
+				var t8 = prompt("m8  我能随音乐节奏，用动作来表达");
+				var t9 = prompt("m9  我我参加乐队、合唱队");
+				var t10 = prompt("m10 我在有时走路时，脑海里会出现某个电视节目的音乐或其他音乐旋律");
+				var t11 = prompt("m11 我知道许多歌曲和乐曲的旋律");
+				var t12 = prompt("m12 有音乐伴奏做事，我会做的更快，更专注");
+				var t13 = prompt("m13 如果把一首歌曲听1-2变，我就能把它精准地唱出来");
+				var t14 = prompt("m14 我或自己作词，谱曲以抒发情感");
+				var t15 = prompt("m15 我会请听歌曲的内涵，领首歌曲的意境");
+				var zxcvbn = Number(t1) + Number(t2) + Number(t3) + Number(t4) + Number(t5) + Number(t6) + Number(t7) + Number(t8) + Number(t9) + Number(t10) + Number(t11) + Number(t12) + Number(t13) + Number(t14) + Number(t15);
+
+				document.write("你身体动觉智能的得分是：" + zxcvb + "<br/>" + "评价为：" + " ");
+				if ((zxcvbn >= 50) && (zxcvbn <= 60)) {
+					document.write("非常优越" + "<br/>");
+				} else if ((zxcvbn >= 40) && (zxcvbn <= 50)) {
+					document.write("比较优秀" + "<br/>");
+				} else if ((zxcvbn >= 30) && (zxcvbn <= 30)) {
+					document.write("表现一般" + "<br/>");
+				} else if ((zxcvbn >= 20) && (zxcvbn <= 40)) {
+					document.write("非常一般" + "<br/>");
+				} else {
+					document.write("特别不好" + "<br/>");
+				}
+
+				alert("这里是第六项人际关系智能");
+				var y1 = prompt("i1 我经常参加团体活动");
+				var y2 = prompt("i2 当有问题时，我愿意找别人帮助");
+				var y3 = prompt("i3我是同学合作的对象");
+				var y4 = prompt("i4 我喜欢教一个人，或一群人做一件事");
+				var y5 = prompt("i5 我喜欢关心、体贴和照顾别人");
+				var y6 = prompt("i6 我在人群中感到舒服，而不愿个人独处");
+				var y7 = prompt("i7 我乐意接纳别人的意见");
+				var y8 = prompt("i8 我会请听别人说话，懂的互动，沟通良好");
+				var y9 = prompt("i9 为乐意与人分工合作，喜爱角色扮演和集体游戏");
+				var y10 = prompt("i10 我能协调沟通化解同学的争议");
+				var y11 = prompt("i11 我喜欢与他人交往，有很多朋友，在社交中能显现领导才能");
+				var y12 = prompt("i12 我有团队精神，既尽职又努力奉献");
+				var y13 = prompt("i13 我容易结交新朋友");
+				var y14 = prompt("i14 我是消息灵通人士");
+				var y15 = prompt("i15 我了解别人喜怒，会由别人的脸色及当时的情形，这到别人心情，并正确、迅速的应对");
+				var zxcvbnm = Number(y1) + Number(y2) + Number(y3) + Number(y4) + Number(y5) + Number(y6) + Number(y7) + Number(y8) + Number(y9) + Number(y10) + Number(y11) + Number(y12) + Number(y13) + Number(y14) + Number(y15);
+
+				document.write("你身体动觉智能的得分是：" + zxcvbm + "<br/>" + "评价为：" + " ");
+				if ((zxcvbnm >= 50) && (zxcvbnm <= 60)) {
+					document.write("非常优越" + "<br/>");
+				} else if ((zxcvbnm >= 40) && (zxcvbnm <= 50)) {
+					document.write("比较优秀" + "<br/>");
+				} else if ((zxcvbnm >= 30) && (zxcvbnm <= 30)) {
+					document.write("表现一般" + "<br/>");
+				} else if ((zxcvbnm >= 20) && (zxcvbnm <= 40)) {
+					document.write("非常一般" + "<br/>");
+				} else {
+					document.write("特别不好" + "<br/>");
+				}
+
+				alert("这里是第七项内省智能");
+				var u1 = prompt("j1  我能恰当的表现自己的想法");
+				var u2 = prompt("i2 当有问题时，我愿意找别人帮助");
+				var u3 = prompt("j3  我诚实，坦白，勤于反省，敢于认错");
+				var u4 = prompt("j4  我是活泼开朗的");
+				var u5 = prompt("j5  我明事理，拥有自尊，懂得自律");
+				var u6 = prompt("j6  我能集中注意力，按时完成工作");
+				var u7 = prompt("j7  我喜欢独自工作，游戏和学习");
+				var u8 = prompt("j8  我善于计划和分配工作和学习");
+				var u9 = prompt("j9  我能控制住自己的情绪，不随便发脾气");
+				var u10 = prompt("j10 我能够面对挫折");
+				var u11 = prompt("j11 我经常思考自己的重要人生目标");
+				var u12 = prompt("j12 我会检讨自己做是成功或失败的经验，使下次做事更为顺利");
+				var u13 = prompt("j13 我认为自己意志坚强或性格独立");
+				var u14 = prompt("j14 我喜欢记录个人生活事件");
+				var u15 = prompt("j15我有自知之明及据此做出适当行为的能力");
+				var zxcvbnma = Number(u1) + Number(u2) + Number(u3) + Number(u4) + Number(u5) + Number(u6) + Number(u7) + Number(u8) + Number(u9) + Number(u10) + Number(u11) + Number(u12) + Number(u13) + Number(u14) + Number(u15);
+
+				document.write("你身体动觉智能的得分是：" + zxcvbnma + "<br/>" + "评价为：" + " ");
+				if ((zxcvbnma >= 50) && (zxcvbnma <= 60)) {
+					document.write("非常优越" + "<br/>");
+				} else if ((zxcvbnma >= 40) && (zxcvbnma <= 50)) {
+					document.write("比较优秀" + "<br/>");
+				} else if ((zxcvbnma >= 30) && (zxcvbnma <= 30)) {
+					document.write("表现一般" + "<br/>");
+				} else if ((zxcvbnma >= 20) && (zxcvbnma <= 40)) {
+					document.write("非常一般" + "<br/>");
+				} else {
+					document.write("特别不好" + "<br/>");
+				}
+
+				alert("这里是第八项自然观察者智能");
+				var i1 = prompt("n1  我对植物，动物，自然生态有好奇心，保护意识，和关怀之情");
+				var i2 = prompt("n2  我对自然界的事物有敏锐的感觉");
+				var i3 = prompt("n3  我很快生物和自然景物的名称，特征和与其有关的资料");
+				var i4 = prompt("n4  我会留意自然环境和周围环境的变化，特别是突变何不寻常的现象");
+				var i5 = prompt("n5  我喜欢收集标本，饲养动物，种植花草树木，参加园艺或野外活动");
+				var i6 = prompt("n6  我喜欢阅览以自然景观活动植物为主题的节目，图书和展示");
+				var i7 = prompt("n7  我喜欢用仪器来探究大自然");
+				var i8 = prompt("n8  我能有系统的记录所收藏的标本和将新发现分门别类");
+				var i9 = prompt("n9  我善待自然世界，乐于分享自己探索自然万物的经历");
+				var i10 = prompt("n10 我喜欢看云，并能看出不同的形状，高度，明暗度等");
+				var i11 = prompt("n11 我喜欢到公园，植物园，水族馆进行参观考察");
+				var i12 = prompt("n12 我对自然景物有很大兴趣");
+				var i13 = prompt("n13 我会蹲在地上看蚂蚁走路，一看就花上半个小时，目的是观察蚂蚁的生活动态而不是踩死它");
+				var i14 = prompt("n14 春天来临时我是朋友中第一个注意到花苞或嫩芽的人");
+				var i15 = prompt("n15在往返学校的路途上，我喜欢观察周围的景物，并且注意其不同的变化");
+				var zxcvbnmas = Number(i1) + Number(i2) + Number(i3) + Number(i4) + Number(i5) + Number(i6) + Number(i7) + Number(i8) + Number(i9) + Number(i10) + Number(i11) + Number(i12) + Number(i13) + Number(i14) + Number(i15);
+
+				document.write("你身体动觉智能的得分是：" + zxcvbnmas + "<br/>" + "评价为：" + " ");
+				if ((zxcvbnmas >= 50) && (zxcvbnmas <= 60)) {
+					document.write("非常优越" + "<br/>");
+				} else if ((zxcvbnmas >= 40) && (zxcvbnmas <= 50)) {
+					document.write("比较优秀" + "<br/>");
+				} else if ((zxcvbnmas >= 30) && (zxcvbnmas <= 30)) {
+					document.write("表现一般" + "<br/>");
+				} else if ((zxcvbnmas >= 20) && (zxcvbnmas <= 40)) {
+					document.write("非常一般" + "<br/>");
+				} else {
+					document.write("特别不好" + "<br/>");
+				}
+			}
+		</script>
+		<marquee direction="left" class="style1">
+			感谢您进行测试，如果您想发现更多有趣的小程序,尽情关注公众号LMCCPAS哦~
+		</marquee>
+		<marquee direction="left" class="style2">
+			重要的事情说三遍
+		</marquee>
+		<marquee direction="left" class="style3">
+			关注公众号LMCCPAS
+		</marquee>
+		<marquee direction="left" class="style4">
+			关注公众号LMCCPAS
+		</marquee>
+		<marquee direction="left" class="style5">
+			关注公众号LMCCPAS
+		</marquee>
+	</body>
+</html>
